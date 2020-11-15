@@ -1,0 +1,88 @@
+**** BEGIN LOGGING AT Sat Oct 31 22:46:04 2020
+
+ott 31 22:46:04 *	*** Looking up your hostname...
+ott 31 22:46:04 *	*** Checking Ident
+ott 31 22:46:05 *	*** Found your hostname
+ott 31 22:46:15 *	*** No Ident response
+ott 31 22:46:15 *	Capabilities supported: account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix sasl tls
+ott 31 22:46:15 *	Capabilities requested: account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix 
+ott 31 22:46:15 *	Capabilities acknowledged: account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Sat Oct 31 22:46:15 2020
+
+**** BEGIN LOGGING AT Sat Oct 31 22:46:15 2020
+
+ott 31 22:46:15 *	Welcome to the freenode Internet Relay Chat Network manjaroi3
+ott 31 22:46:15 *	Your host is orwell.freenode.net[185.30.166.37/6667], running version ircd-seven-1.1.9
+ott 31 22:46:15 *	This server was created Sat Apr 25 2020 at 14:54:40 UTC
+ott 31 22:46:15 *	orwell.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+ott 31 22:46:15 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+ott 31 22:46:15 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK MONITOR=100 CPRIVMSG :are supported by this server
+ott 31 22:46:15 *	CNOTICE SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+ott 31 22:46:15 *	There are 101 users and 79193 invisible on 32 servers
+ott 31 22:46:15 *	43 :IRC Operators online
+ott 31 22:46:15 *	15 :unknown connection(s)
+ott 31 22:46:15 *	47486 :channels formed
+ott 31 22:46:15 *	I have 3215 clients and 1 servers
+ott 31 22:46:15 *	3215 4839 :Current local users 3215, max 4839
+ott 31 22:46:15 *	79294 89765 :Current global users 79294, max 89765
+ott 31 22:46:15 *	Highest connection count: 4840 (4839 clients) (1579695 connections received)
+ott 31 22:46:15 *	- orwell.freenode.net Message of the Day - 
+ott 31 22:46:15 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+ott 31 22:46:15 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+ott 31 22:46:15 *	- this server!
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+ott 31 22:46:15 *	- moved him to England when he was one year old, and it
+ott 31 22:46:15 *	- was in England where he was educated and spent most of
+ott 31 22:46:15 *	- his life.  Orwell is perhaps best known for his novels
+ott 31 22:46:15 *	- Nineteen Eighty-Four and Animal Farm.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- Welcome to freenode - supporting the free and open source
+ott 31 22:46:15 *	- software communities since 1998.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- By connecting to freenode you indicate that you have read and
+ott 31 22:46:15 *	- accept our policies and guidelines as set out on https://freenode.net
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- In the event that you observe behaviour that contravenes our policies,
+ott 31 22:46:15 *	- please notify a volunteer staff member via private message, or send us an
+ott 31 22:46:15 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+ott 31 22:46:15 *	- situation within a reasonable period of time, and we may request further
+ott 31 22:46:15 *	- information or, as appropriate, involve other parties such as channel operators 
+ott 31 22:46:15 *	- Group Contacts representing an on-topic group.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- freenode runs an open proxy scanner.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- If you are looking for assistance, you may be able to find a list of 
+ott 31 22:46:15 *	- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+ott 31 22:46:15 *	- #freenode and using the '/who freenode/staff/*' command. You may message
+ott 31 22:46:15 *	- any of us at any time. Please note that freenode predominantly provides 
+ott 31 22:46:15 *	- assistance via private message, and while we have a network channel the 
+ott 31 22:46:15 *	- primary venue for support requests is via private message to a member 
+ott 31 22:46:15 *	- of the volunteer staff team.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- From time to time, volunteer staff may send server-wide notices relating to
+ott 31 22:46:15 *	- the project, or the communities that we host. The majority of such notices
+ott 31 22:46:15 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+ott 31 22:46:15 *	- do not miss them. Important messages relating to the freenode project, including
+ott 31 22:46:15 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+ott 31 22:46:15 *	- global notices.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- Representing an on-topic project? Don't forget to register, more information
+ott 31 22:46:15 *	- can be found on the https://freenode.net website under "Group Registration".
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- Thank you also to our server sponsors for the sustained support in keeping the
+ott 31 22:46:15 *	- network going for close to two decades.
+ott 31 22:46:15 *	-  
+ott 31 22:46:15 *	- Thank you for using freenode!
+ott 31 22:46:15 *	End of /MOTD command.
+ott 31 22:46:15 *	manjaroi3 sets mode +i on manjaroi3
+ott 31 22:46:15 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+ott 31 22:46:16 -freenode-connect-	Welcome to freenode. To protect the network all new connections will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.
+ott 31 22:46:16 *	Received a CTCP VERSION from freenode-connect
+ott 31 22:46:21 *	#manjaro #manjaro-unregistered :Forwarding to another channel
+ott 31 22:46:33 Checksum plugin unloaded
+ott 31 22:46:33 Perl interface unloaded
+ott 31 22:46:33 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Sat Oct 31 22:46:33 2020
+

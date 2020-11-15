@@ -1,0 +1,49 @@
+00:00:00.001885 main     VirtualBox XPCOM Server 6.1.16 r140961 linux.amd64 (Oct 20 2020 18:52:28) release log
+00:00:00.001890 main     Log opened 2020-11-15T11:13:37.686167000Z
+00:00:00.001892 main     Build Type: release
+00:00:00.001897 main     OS Product: Linux
+00:00:00.001900 main     OS Release: 5.8.18-1-MANJARO
+00:00:00.001903 main     OS Version: #1 SMP PREEMPT Sun Nov 1 14:10:04 UTC 2020
+00:00:00.001942 main     DMI Product Name: XPS 13 9370
+00:00:00.001960 main     DMI Product Version: 
+00:00:00.001969 main     Firmware type: UEFI
+00:00:00.003241 main     Secure Boot: Disabled
+00:00:00.003331 main     Host RAM: 7657MB (7.4GB) total, 6452MB (6.3GB) available
+00:00:00.003338 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.003339 main     Process ID: 26920
+00:00:00.003341 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.007740 main     IPC socket path: /tmp/.vbox-ersandro-ipc/ipcd
+00:00:00.127155 nspr-2   VirtualBox: object creation starts
+00:00:00.127351 nspr-2   Home directory: '/home/ersandro/.config/VirtualBox'
+00:00:00.127954 nspr-2   Loading settings file "/home/ersandro/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.150229 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.151532 nspr-2   HostDnsMonitor: initializing
+00:00:00.152255 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.152385 nspr-2   NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlp2s0
+00:00:00.152398 nspr-2   NAT: resolv.conf: nameserver fe80::a26:97ff:fe59:f9e0
+00:00:00.152431 nspr-2   HostDnsMonitor: updating information
+00:00:00.152472 nspr-2   HostDnsMonitor: old information
+00:00:00.152482 nspr-2     no server entries
+00:00:00.152491 nspr-2     no domain set
+00:00:00.152498 nspr-2     no search string entries
+00:00:00.152506 nspr-2   HostDnsMonitor: new information
+00:00:00.152513 nspr-2     server 1: 192.168.1.1
+00:00:00.152523 nspr-2     server 2: fe80::a26:97ff:fe59:f9e0%wlp2s0
+00:00:00.152531 nspr-2     domain: home
+00:00:00.152539 nspr-2     search string 1: home
+00:00:00.160972 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.161853 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.176270 nspr-2   Loading settings file "/home/ersandro/VirtualBox VMs/Linux/Linux.vbox" with version "1.16-linux"
+00:00:00.178896 nspr-2   VirtualBox: object created
+00:00:01.406864 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.812291 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.814633 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:02:19.902638 nspr-2   Import settings with version "1.16-linux"
+00:02:19.902830 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'NixOS 20.09.1784.29e9c10750e (x86_64-linux)'}, preserve=false aResultDetail=0
+00:02:19.903181 nspr-2   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium '/home/ersandro/VirtualBox VMs/NixOS 20.09.1784.29e9c10750e (x86_64-linux)/nixos-20.09.1784.29e9c10750e-x86_64-linux-disk001.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:02:57.799710 createImport Saving settings file "/home/ersandro/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:57.808591 ApplImp  Saving settings file "/home/ersandro/VirtualBox VMs/NixOS 20.09.1784.29e9c10750e (x86_64-linux)/NixOS 20.09.1784.29e9c10750e (x86_64-linux).vbox" with version "1.16-linux"
+00:02:57.815031 ApplImp  Saving settings file "/home/ersandro/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:58.425372 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:02:58.642623 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:02:58.647254 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0

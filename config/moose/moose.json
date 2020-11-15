@@ -1,0 +1,12 @@
+{
+	"torrents": [],
+	"descriptions": {},
+	"color": "rgba(0,0,0,0.81)",
+	"downloadDirectory": "/home/ersandro/Downloads",
+	"wasDarkMode": true,
+	"__internal__": {
+		"migrations": {
+			"version": "0.6.2"
+		}
+	}
+}

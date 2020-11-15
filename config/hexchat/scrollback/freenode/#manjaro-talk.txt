@@ -1,0 +1,5 @@
+T 1604180781 19*	Now talking on 22#manjaro-talk
+T 1604180781 22*	Topic for 22#manjaro-talk is: Talking...
+T 1604180781 22*	Topic for 22#manjaro-talk set by 26dudosyka!~manjaro-u@188.242.100.138 (24Sun Oct  4 21:11:47 2020)
+T 1604180793 FiSHLiM plugin unloaded
+T 1604180793 Python interface unloaded
