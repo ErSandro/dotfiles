@@ -9,20 +9,19 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=e06e2800-5799-4170-a681-ad5326073f63,m=62511892-4571-4734-8e23-46ae6bab29a4"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=62511892-4571-4734-8e23-46ae6bab29a4,m=72ad8daf-0d6f-4d6a-9ade-d901e9b91bed"/>
       <ExtraDataItem name="GUI/Input/AutoCapture" value="true"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=Linux"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=Nix"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="0,24,1920,1056"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/ersandro/Downloads"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/ersandro/Downloads/instantos_beta5_1.iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/ersandro/Downloads/nixos-gnome-20.09.1784.29e9c10750e-x86_64-linux.iso,/home/ersandro/Downloads/instantos_beta5_1.iso"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="635,1284"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutMouseIntegration,confirmGoingFullscreen,remindAboutAutoCapture"/>
-      <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{62511892-4571-4734-8e23-46ae6bab29a4}" src="/home/ersandro/VirtualBox VMs/Linux/Linux.vbox"/>
-      <MachineEntry uuid="{ce8ce5d4-e41e-4883-af79-4d1ec4379d4b}" src="/home/ersandro/VirtualBox VMs/NixOS 20.09.1784.29e9c10750e (x86_64-linux)/NixOS 20.09.1784.29e9c10750e (x86_64-linux).vbox"/>
+      <MachineEntry uuid="{72ad8daf-0d6f-4d6a-9ade-d901e9b91bed}" src="/home/ersandro/VirtualBox VMs/Nix/Nix.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

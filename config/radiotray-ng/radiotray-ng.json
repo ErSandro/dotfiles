@@ -1,7 +1,7 @@
 {
 	"bookmarks" : "/home/ersandro/.config/radiotray-ng/bookmarks.json",
-	"last-station" : "Virgin Radio",
-	"last-station-group" : "Radio Italiane",
+	"last-station" : "Rai Radio 2",
+	"last-station-group" : "Radio Rai",
 	"last-station-notifications" : true,
 	"notification-verbose" : true,
 	"notifications" : true,

@@ -7,13 +7,13 @@
 ########## Variables
 
 # dotfiles directory
-dir=~/Users/eric-chi/Dropbox/__igor/repos/blogs/sample-dotfiles
+dir=~/git/dotfiles
 
 # old dotfiles backup directory
-olddir=~/Users/eric-chi/Dropbox/__igor/repos/blogs/sample-dotfiles/dotfiles_old
+olddir=~/git/dotfiles_old
 
 # list of files/folders to symlink in homedir
-files="bashrc gitconfig functions"
+files="config emacs.d doom.d"
 
 ##########
 

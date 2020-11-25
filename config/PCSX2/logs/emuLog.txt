@@ -1,0 +1,48 @@
+PCSX2 1.7.0-20201115043758 - compiled on Nov 15 2020
+Savestate version: 0x9a100000
+
+Host Machine Init:
+	Operating System =  Linux 5.8.18-1-MANJARO x86_64
+	Physical RAM     =  7657 MB
+	CPU name         =  Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+	Vendor/Model     =  GenuineIntel (stepping 0A)
+	CPU speed        =  1.798 ghz (8 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbbf
+	x86EFlags        =  2c100000
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.187: gtk_distribute_natural_allocation: assertion 'extra_space >= 0' failed
+
+(PCSX2:201734): Gtk-WARNING **: 17:40:11.216: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.217: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.217: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:201734): Gtk-WARNING **: 17:40:11.278: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.278: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.278: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:201734): Gtk-WARNING **: 17:40:11.278: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.278: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:201734): Gtk-WARNING **: 17:40:11.280: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node scrolledwindow, owner GtkScrolledWindow)
+
+(PCSX2:201734): Gtk-CRITICAL **: 17:40:11.280: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+Loading plugins from /usr/lib32/pcsx2...
+	Bound   GS: libGSdx.so [GSdx (GCC 10.2.0 AVX2/AVX2) 1.2.0]
+	Bound  PAD: libonepad.so [OnePAD 20201115043758 2.0.0]
+Plugins loaded successfully.
+
+(GameDB) 9872 games on record (loaded in 249ms)
+(GameDB) Unloading...
