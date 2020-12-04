@@ -11,6 +11,9 @@
             <item label="Geany"> <action name="Execute">
                 <execute>geany</execute>
             </action> </item>
+            <item label="Micro"> <action name="Execute">
+                <execute>alacritty -e micro</execute>
+            </action> </item>
         </menu>
         <menu id="2" label="Editors">
             <item label="Emacs"> <action name="Execute">
@@ -51,6 +54,9 @@
         <menu id="7" label="Multimedia">
             <item label="ALSA mixer"> <action name="Execute">
                 <execute>alacritty -e alsamixer</execute>
+            </action> </item>
+            <item label="DeaDBeeF"> <action name="Execute">
+                <execute>deadbeef</execute>
             </action> </item>
             <item label="GTK Straw Viewer"> <action name="Execute">
                 <execute>gtk-straw-viewer</execute>
@@ -328,6 +334,9 @@
             </action> </item>
             <item label="compton"> <action name="Execute">
                 <execute>compton</execute>
+            </action> </item>
+            <item label="Enpass"> <action name="Execute">
+                <execute>/opt/enpass/Enpass</execute>
             </action> </item>
             <item label="File Manager"> <action name="Execute">
                 <execute>exo-open --launch FileManager</execute>

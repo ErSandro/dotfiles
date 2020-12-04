@@ -84,16 +84,17 @@ keys = [
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown qtile"),
-    Key([mod], "r", lazy.spawncmd(),
+    #Key([mod], "r", lazy.spawn("dmenu_run"),
+    Key([mod], "r", lazy.spawn("rofi -show run"),
         desc="Spawn a command using a prompt widget"),
     Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 5")),
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 5")),
-    Key([mod], "1", lazy.spawn("qutebrowser")),
-    Key([mod], "2", lazy.spawn("alacritty -e ranger")),
-    Key([mod],"3", lazy.spawn("rofi -show window")),
+    Key([mod], "w", lazy.spawn("qutebrowser")),
+    Key([mod], "f", lazy.spawn("alacritty -e ranger")),
+    Key([mod],"a", lazy.spawn("rofi -show window")),
 ]
 
-groups = [Group(i) for i in "asdfuiop"]
+groups = [Group(i) for i in "123456789"]
 
 for i in groups:
     keys.extend([
@@ -112,33 +113,37 @@ for i in groups:
 
 layouts = [
     layout.Max(),
+    #layout.Columns(
+    #    margin = 8,
+    #    border_focus = "#668bd7",
+    #    border_focus_stack = "#668bd7"
+    #    ),
     #layout.Stack(num_stacks=2,margin=8),
     #Try more layouts by unleashing below layouts.
     #layout.Bsp(margin=8),
-    layout.Columns(
-        margin = 8,
+    #layout.Matrix(),
+    layout.MonadTall(
+        margin=8,
         border_focus = "#668bd7",
         border_focus_stack = "#668bd7"
         ),
-    #layout.Matrix(),
-    #layout.MonadTall(margin=8),
-    #layout.MonadWide(),
+   #layout.MonadWide(),
     #layout.RatioTile(),
     #layout.Tile(),
-    layout.TreeTab(
-        font = "Hack Nerd Font Mono",
-        fontsize = 16,
-        sections = ["WINDOWS"],
-        section_fontsize = 16,
-        bg_color = "292d3e",
-        active_bg = "90C435",
-        active_fg = "000000",
-        inactive_bg = "384323",
-        inactive_fg = "a0a0a0",
-        padding_y = 5,
-        section_top = 10,
-        panel_width = 320
-    ),
+    #layout.TreeTab(
+    #    font = "Hack Nerd Font Mono",
+    #    fontsize = 16,
+    #    sections = ["WINDOWS"],
+    #    section_fontsize = 16,
+    #    bg_color = "292d3e",
+    #    active_bg = "90C435",
+    #    active_fg = "000000",
+    #    inactive_bg = "384323",
+    #    inactive_fg = "a0a0a0",
+    #    padding_y = 5,
+    #    section_top = 10,
+    #    panel_width = 320
+    #),
     #layout.VerticalTile(),
     #layout.Zoomy(),
 ]

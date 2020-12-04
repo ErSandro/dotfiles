@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Matcha-dark-azul</name>
+    <name>Adapta-Nokto-Maia</name>
     <titleLayout>CSIML</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -75,8 +75,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Sans</name>
-      <size>8</size>
+      <name>mononoki</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -84,10 +84,10 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Sans</name>
-      <size>8</size>
+      <name>mononoki</name>
+      <size>10</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
@@ -474,7 +474,7 @@
       <action name="Move"/>
     </keybind>
     <!-- Keybindings for windows -->
-    <keybind key="S-W-c">
+    <keybind key="W-S-c">
       <action name="Close"/>
     </keybind>
     <keybind key="A-Escape">
@@ -594,7 +594,7 @@
         <command>pcmanfm</command>
       </action>
     </keybind>
-    <keybind key="S-W-k">
+    <keybind key="W-S-k">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -992,7 +992,16 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <!--
+    <application class="*">
+      <decor>no</decor>
+    </application>
+    <application class="mpv">
+      <maximized>true</maximized>
+    </application>
+    <application class="Emacs">
+      <maximized>true</maximized>
+    </application>
+      <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
   # you may use one or more of the name/class/role/title/type rules to specify
