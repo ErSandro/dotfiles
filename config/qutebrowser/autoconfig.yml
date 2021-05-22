@@ -28,8 +28,11 @@ settings:
   colors.tabs.selected.odd.fg:
     global: '#668bd7'
   content.notifications:
+    https://getpopcorntime.is: false
+    https://www.digitaltrends.com: false
     https://www.netflix.com: false
     https://www.reddit.com: false
+    https://yts.unblocked.name: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: false
   fonts.default_family:
@@ -37,7 +40,7 @@ settings:
   fonts.default_size:
     global: 10pt
   fonts.hints:
-    global: hack
+    global: bold 20px Monospace
   fonts.tabs.selected:
     global: 16_size
   statusbar.show:

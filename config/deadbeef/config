@@ -1,6 +1,7 @@
 artwork.filemask *cover*.jpg;*front*.jpg;*folder*.jpg;*cover*.png;*front*.png;*folder*.png
 deadbeef_version 1.8.4
-gtkui.layout.0.6.2 vbox expand="0 1" fill="1 1" homogeneous=0 {hbox expand="0 1 0" fill="1 1 1" homogeneous=0 {playtb {} seekbar {} volumebar {} } tabbed_playlist hideheaders=0 width=843 {} } 
+filechooser.lastdir file:///home/ersandro/Music/Persona_4
+gtkui.layout.0.6.2 vbox expand="0 1" fill="1 1" homogeneous=0 {hbox expand="0 1 0" fill="1 1 1" homogeneous=0 {playtb {} seekbar {} volumebar {} } tabbed_playlist hideheaders=0 width=743 {} } 
 gtkui.statusbar.visible 1
 gtkui.tabscroll 0
 hotkey.key01 "Ctrl f" 0 0 find
@@ -35,19 +36,22 @@ hotkey.key30 b 0 0 next
 hotkey.key31 n 0 0 playback_random
 hotkey.key32 "Ctrl k" 0 0 toggle_stop_after_album
 hotkeys_created 1
-mainwin.geometry.h 413
-mainwin.geometry.w 843
-mainwin.geometry.x 914
-mainwin.geometry.y 323
+mainwin.geometry.h 679
+mainwin.geometry.w 743
+mainwin.geometry.x 915
+mainwin.geometry.y 182
 output_plugin alsa
 playback.loop 1
 playback.volume 0.0000000
 playlist.current 0
 playlist.cursor.0 0
-playlist.scroll.0 0
+playlist.cursor.1 0
+playlist.scroll.0 -2
+playlist.scroll.1 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Default
+playlist.tab.00001 New Playlist
 resume.paused 0
 resume.playlist 0
-resume.position 17.554346
+resume.position 27.028112
 resume.track 0

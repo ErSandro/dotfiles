@@ -1,1 +1,0 @@
-/home/ersandro/git/dotfiles/emacs.d

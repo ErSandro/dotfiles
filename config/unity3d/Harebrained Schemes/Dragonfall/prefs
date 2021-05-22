@@ -1,0 +1,44 @@
+<unity_prefs version_major="1" version_minor="0">
+	<pref name="Analytics.CombatMinutes" type="int">0</pref>
+	<pref name="Analytics.FriendlyMinutes" type="int">2</pref>
+	<pref name="Analytics.GoodCombatMinutes" type="int">0</pref>
+	<pref name="Analytics.GoodFriendlyMinutes" type="int">2</pref>
+	<pref name="Analytics.LastMission" type="string"><![CDATA[a1_Intro_s1.srt]]></pref>
+	<pref name="Analytics.LostCombatMinutes" type="int">0</pref>
+	<pref name="Analytics.LostFriendlyMinutes" type="int">0</pref>
+	<pref name="Analytics.MissionAttempts" type="int">1</pref>
+	<pref name="Debug.ConsoleLogFilter" type="int">941409534</pref>
+	<pref name="Debug.HistoryView" type="int">0</pref>
+	<pref name="Debug.LogVerbosity" type="int">1</pref>
+	<pref name="Debug.RendererView" type="int">0</pref>
+	<pref name="Debug.TileView" type="int">0</pref>
+	<pref name="Debug.UnityLogFilter" type="int">941409534</pref>
+	<pref name="Screenmanager Is Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Width" type="int">3843</pref>
+	<pref name="Settings.AATechnique" type="int">0</pref>
+	<pref name="Settings.AmbientVolume" type="int">100</pref>
+	<pref name="Settings.BaseActionSpeed" type="int">108</pref>
+	<pref name="Settings.CameraEdgeScrollEnabled" type="int">1</pref>
+	<pref name="Settings.CameraFreeMoveMode" type="int">1</pref>
+	<pref name="Settings.CameraIsOrthographic" type="int">1</pref>
+	<pref name="Settings.DevMode" type="int">0</pref>
+	<pref name="Settings.GameDifficulty" type="int">0</pref>
+	<pref name="Settings.GameSpeed" type="int">100</pref>
+	<pref name="Settings.GenericVolume" type="int">100</pref>
+	<pref name="Settings.InputMode" type="int">0</pref>
+	<pref name="Settings.IsFullScreen" type="int">1</pref>
+	<pref name="Settings.Language" type="string"><![CDATA[None]]></pref>
+	<pref name="Settings.MusicVolume" type="int">100</pref>
+	<pref name="Settings.PropResolution" type="int">1</pref>
+	<pref name="Settings.ResolutionFullScreen" type="int">-1</pref>
+	<pref name="Settings.ResolutionWindowed" type="int">-1</pref>
+	<pref name="Settings.ShowFPS" type="int">0</pref>
+	<pref name="Settings.TextSpeed" type="float">1</pref>
+	<pref name="Settings.UIVolume" type="int">100</pref>
+	<pref name="Settings.UseBloodEffects" type="int">1</pref>
+	<pref name="Settings.UseHiRezScalingStandalone" type="int">0</pref>
+	<pref name="Settings.UsePostProcess" type="int">0</pref>
+	<pref name="Settings.UseSmoothFow" type="int">1</pref>
+	<pref name="Settings.Volume" type="int">100</pref>
+</unity_prefs>

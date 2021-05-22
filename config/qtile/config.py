@@ -80,7 +80,7 @@ keys = [
 
     # Toggle between different layouts as defined below
     Key([mod], "space", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown qtile"),
@@ -90,11 +90,23 @@ keys = [
     Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 5")),
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 5")),
     Key([mod], "w", lazy.spawn("qutebrowser")),
+    Key([mod], "e", lazy.spawn("emacs")),
     Key([mod], "f", lazy.spawn("alacritty -e ranger")),
-    Key([mod],"a", lazy.spawn("rofi -show window")),
+    Key([mod], "a", lazy.spawn("rofi -show window")),
+#    Key([mod], "1", lazy.group["web"].toscreen()),
+#    Key([mod], "2", lazy.group["chat"].toscreen()),
+#    Key([mod], "3", lazy.group["steam"].toscreen()),
+#    Key([mod], "4", lazy.group["misc"].toscreen()),
 ]
 
 groups = [Group(i) for i in "123456789"]
+#groups = [
+#  Group("web"),
+#  Group("chat"),
+#  Group("steam"),
+#  Group("misc")
+#]
+
 
 for i in groups:
     keys.extend([
@@ -195,22 +207,27 @@ screens = [
                     foreground = colors[2],
                     background = colors[5]
                     ),
-                widget.Prompt(
-                    padding = 10,
-                    foreground = colors[2],
-                    background = colors[5]
-                    ),
-                widget.Sep(
-                    linewidth = 0,
-                    padding = 2,
-                    foreground = colors[2],
-                    background = colors[0]
-                    ),    
+                #widget.Prompt(
+                #    padding = 10,
+                #    foreground = colors[2],
+                #    background = colors[5]
+                #    ),
+                #widget.Sep(
+                #    linewidth = 0,
+                #    padding = 2,
+                #    foreground = colors[2],
+                #    background = colors[0]
+                #    ),
                 widget.WindowName(
                     foreground = colors[6],
                     background = colors[0],
                     padding = 0
                     ),
+                #widget.Moc(
+                #    foreground = colors[6],
+                #    background = colors[0],
+                #    padding = 0
+                #    ),
                 #widget.Chord(
                 #    chords_colors={
                 #        'launch': ("#ff0000", "#ffffff"),

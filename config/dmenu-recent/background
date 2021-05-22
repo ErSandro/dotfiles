@@ -90,3 +90,6 @@ surf
 fire
 qutebrowser
 xfce4-power-manager-settings
+emacs
+gsettings
+picom

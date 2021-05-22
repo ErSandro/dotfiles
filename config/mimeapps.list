@@ -18,6 +18,8 @@ message/rfc822=userapp-Thunderbird.desktop
 application/pdf=epdfview.desktop
 application/x-bittorrent=deluge.desktop
 x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-XNOTU0.desktop
+x-scheme-handler/msteams=teams-for-linux_teams-for-linux.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Pale Moon.desktop;
@@ -38,3 +40,4 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
 application/x-bittorrent=deluge.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-XNOTU0.desktop;

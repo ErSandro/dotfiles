@@ -1,6 +1,18 @@
 {
-	"torrents": [],
-	"descriptions": {},
+	"torrents": [
+		{
+			"name": "John Wick Chapter 1, 2, 3 - Trilogy 2014-2019 Eng Subs 720p",
+			"magnet": "magnet:?xt=urn:btih:2E58D4D41777063F81C2177617D141888F95CDED&dn=John%20Wick%20Chapter%201%2C%202%2C%203%20-%20Trilogy%202014-2019%20Eng%20Subs%20720p&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2F47.ip-51-68-199.eu%3A6969%2Fannounce",
+			"infoHash": "2e58d4d41777063f81c2177617d141888f95cded"
+		}
+	],
+	"descriptions": {
+		"2e58d4d41777063f81c2177617d141888f95cded": {
+			"title": "John Wick Chapter 1, 2, 3 - Trilogy",
+			"poster": "/cover-video.png",
+			"backdrop": null
+		}
+	},
 	"color": "rgba(0,0,0,0.81)",
 	"downloadDirectory": "/home/ersandro/Downloads",
 	"wasDarkMode": true,

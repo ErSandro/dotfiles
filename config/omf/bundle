@@ -1,2 +1,17 @@
+package config
+package spark
 theme default
+theme eden
+theme gitstatus
+theme harleen
+theme l
+theme mars
+theme ocean
+theme pure
+theme redfish
 theme sashimi
+theme slacker
+theme spacefish
+theme sushi
+theme wolf-theme
+theme zish
