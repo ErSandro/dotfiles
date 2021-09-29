@@ -84,29 +84,18 @@ keys = [
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown qtile"),
-    #Key([mod], "r", lazy.spawn("dmenu_run"),
     Key([mod], "r", lazy.spawn("rofi -show run"),
         desc="Spawn a command using a prompt widget"),
     Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 5")),
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 5")),
     Key([mod], "w", lazy.spawn("qutebrowser")),
-    Key([mod], "e", lazy.spawn("emacs")),
-    Key([mod], "f", lazy.spawn("alacritty -e ranger")),
+    Key([mod], "e", lazy.spawn("gvim")),
+    Key([mod], "f", lazy.spawn("rofi -show file-browser-extended -show-icons")),
+    Key([mod], "y", lazy.spawn("alacritty -e ytfzf -Sl --sort")),
     Key([mod], "a", lazy.spawn("rofi -show window")),
-#    Key([mod], "1", lazy.group["web"].toscreen()),
-#    Key([mod], "2", lazy.group["chat"].toscreen()),
-#    Key([mod], "3", lazy.group["steam"].toscreen()),
-#    Key([mod], "4", lazy.group["misc"].toscreen()),
 ]
 
 groups = [Group(i) for i in "123456789"]
-#groups = [
-#  Group("web"),
-#  Group("chat"),
-#  Group("steam"),
-#  Group("misc")
-#]
-
 
 for i in groups:
     keys.extend([
@@ -125,39 +114,11 @@ for i in groups:
 
 layouts = [
     layout.Max(),
-    #layout.Columns(
-    #    margin = 8,
-    #    border_focus = "#668bd7",
-    #    border_focus_stack = "#668bd7"
-    #    ),
-    #layout.Stack(num_stacks=2,margin=8),
-    #Try more layouts by unleashing below layouts.
-    #layout.Bsp(margin=8),
-    #layout.Matrix(),
     layout.MonadTall(
         margin=8,
         border_focus = "#668bd7",
         border_focus_stack = "#668bd7"
         ),
-   #layout.MonadWide(),
-    #layout.RatioTile(),
-    #layout.Tile(),
-    #layout.TreeTab(
-    #    font = "Hack Nerd Font Mono",
-    #    fontsize = 16,
-    #    sections = ["WINDOWS"],
-    #    section_fontsize = 16,
-    #    bg_color = "292d3e",
-    #    active_bg = "90C435",
-    #    active_fg = "000000",
-    #    inactive_bg = "384323",
-    #    inactive_fg = "a0a0a0",
-    #    padding_y = 5,
-    #    section_top = 10,
-    #    panel_width = 320
-    #),
-    #layout.VerticalTile(),
-    #layout.Zoomy(),
 ]
 
 colors = [["#292d3e", "#292d3e"], # panel background
@@ -179,9 +140,6 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                #widget.CurrentLayout(
-                #    padding = 10,
-                #    ),
                 widget.GroupBox(
                     padding = 5,
                     margin_y = 3,
@@ -207,34 +165,11 @@ screens = [
                     foreground = colors[2],
                     background = colors[5]
                     ),
-                #widget.Prompt(
-                #    padding = 10,
-                #    foreground = colors[2],
-                #    background = colors[5]
-                #    ),
-                #widget.Sep(
-                #    linewidth = 0,
-                #    padding = 2,
-                #    foreground = colors[2],
-                #    background = colors[0]
-                #    ),
                 widget.WindowName(
                     foreground = colors[6],
                     background = colors[0],
                     padding = 0
                     ),
-                #widget.Moc(
-                #    foreground = colors[6],
-                #    background = colors[0],
-                #    padding = 0
-                #    ),
-                #widget.Chord(
-                #    chords_colors={
-                #        'launch': ("#ff0000", "#ffffff"),
-                #    },
-                #    name_transform=lambda name: name.upper(),
-                #),
-                #widget.TaskList(),
                 widget.Sep(
                     linewidth = 0,
                     padding = 2,
@@ -322,7 +257,6 @@ screens = [
                     foreground = colors[2],
                     background = colors[5]
                     ),
-                #widget.QuickExit(),
             ],
             24,
         ),
@@ -344,23 +278,23 @@ main = None  # WARNING: this is deprecated and will be removed soon
 follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
-floating_layout = layout.Floating(float_rules=[
-    # Run the utility of `xprop` to see the wm class and name of an X client.
-    {'wmclass': 'confirm'},
-    {'wmclass': 'dialog'},
-    {'wmclass': 'download'},
-    {'wmclass': 'error'},
-    {'wmclass': 'file_progress'},
-    {'wmclass': 'notification'},
-    {'wmclass': 'splash'},
-    {'wmclass': 'toolbar'},
-    {'wmclass': 'confirmreset'},  # gitk
-    {'wmclass': 'makebranch'},  # gitk
-    {'wmclass': 'maketag'},  # gitk
-    {'wname': 'branchdialog'},  # gitk
-    {'wname': 'pinentry'},  # GPG key password entry
-    {'wmclass': 'ssh-askpass'},  # ssh-askpass
-])
+#floating_layout = layout.Floating(float_rules=[
+#    # Run the utility of `xprop` to see the wm class and name of an X client.
+#    {'wmclass': 'confirm'},
+#    {'wmclass': 'dialog'},
+#    {'wmclass': 'download'},
+#    {'wmclass': 'error'},
+#    {'wmclass': 'file_progress'},
+#    {'wmclass': 'notification'},
+#    {'wmclass': 'splash'},
+#    {'wmclass': 'toolbar'},
+#    {'wmclass': 'confirmreset'},  # gitk
+#    {'wmclass': 'makebranch'},  # gitk
+#    {'wmclass': 'maketag'},  # gitk
+#    {'wname': 'branchdialog'},  # gitk
+#    {'wname': 'pinentry'},  # GPG key password entry
+#    {'wmclass': 'ssh-askpass'},  # ssh-askpass
+#])
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 
