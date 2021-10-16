@@ -1,23 +1,22 @@
-00:00:00.263683 VirtualBox GUI VM Selector Window 6.1.20 r143896 linux.amd64 (Apr 20 2021 19:34:06) release log
-00:00:00.263685 Log opened 2021-05-05T07:13:27.632673000Z
-00:00:00.263686 Build Type: release
-00:00:00.263688 OS Product: Linux
-00:00:00.263689 OS Release: 5.10.32-1-MANJARO
-00:00:00.263691 OS Version: #1 SMP Wed Apr 21 14:54:10 UTC 2021
-00:00:00.263719 DMI Product Name: XPS 13 9370
-00:00:00.263729 DMI Product Version: 
-00:00:00.263734 Firmware type: UEFI
-00:00:00.264853 Secure Boot: Disabled
-00:00:00.264904 Host RAM: 7655MB (7.4GB) total, 5243MB (5.1GB) available
-00:00:00.264907 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.264908 Process ID: 155540
-00:00:00.264909 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.264934 Qt version: 5.15.2
-00:00:00.287270 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.932232 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x24 x 1920x1056
-00:00:00.948531 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:35.683133 GUI: UIMediumEnumerator: Medium with key={{5257a719-93c4-42a6-925c-99ab4f2ec3fa}} created
-00:00:35.736765 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:38.599937 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:38.715064 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:04:32.630334 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.721662 VirtualBox GUI VM Selector Window 6.1.26 r145957 linux.amd64 (Jul 29 2021 12:15:28) release log
+00:00:00.721664 Log opened 2021-10-05T00:02:56.546058000Z
+00:00:00.721665 Build Type: release
+00:00:00.721668 OS Product: Linux
+00:00:00.721670 OS Release: 5.10.68-1-MANJARO
+00:00:00.721671 OS Version: #1 SMP PREEMPT Wed Sep 22 12:29:47 UTC 2021
+00:00:00.721697 DMI Product Name: XPS 13 9370
+00:00:00.721706 DMI Product Version: 
+00:00:00.721712 Firmware type: UEFI
+00:00:00.722608 Secure Boot: Disabled
+00:00:00.722662 Host RAM: 7651MB (7.4GB) total, 6202MB (6.0GB) available
+00:00:00.722670 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.722671 Process ID: 232183
+00:00:00.722671 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.722704 Qt version: 5.15.2
+00:00:00.759500 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.626424 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x24 x 1920x1056
+00:00:01.639453 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:38.337494 GUI: UIMediumEnumerator: Medium with key={{2685c302-beb0-4ddb-88a4-4eccdea65af4}} created
+00:00:38.413198 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:41.117603 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:41.314246 GUI: UIMediumEnumerator: Medium-enumeration finished!

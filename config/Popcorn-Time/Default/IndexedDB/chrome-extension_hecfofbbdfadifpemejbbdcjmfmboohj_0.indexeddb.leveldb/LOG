@@ -1,9 +1,9 @@
-2021/03/04-01:18:13.586 54947 Reusing MANIFEST /home/ersandro/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/04-01:19:33.776 54947 Current memtable full; waiting...
-2021/03/04-01:19:33.777 55394 Level-0 table #5: started
-2021/03/04-01:19:33.780 55394 Level-0 table #5: 643 bytes OK
-2021/03/04-01:19:33.786 55394 Delete type=0 #3
-2021/03/04-01:19:33.787 55394 Level-0 table #7: started
-2021/03/04-01:19:33.787 55394 Level-0 table #7: 0 bytes OK
-2021/03/04-01:19:33.796 55394 Delete type=0 #4
-2021/03/04-01:19:33.797 55394 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/10/02-00:20:43.392 81287 Reusing MANIFEST /home/ersandro/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2021/10/02-00:21:03.854 81287 Current memtable full; waiting...
+2021/10/02-00:21:03.854 81496 Level-0 table #5: started
+2021/10/02-00:21:03.860 81496 Level-0 table #5: 643 bytes OK
+2021/10/02-00:21:03.863 81496 Delete type=0 #3
+2021/10/02-00:21:03.864 81496 Level-0 table #7: started
+2021/10/02-00:21:03.864 81496 Level-0 table #7: 0 bytes OK
+2021/10/02-00:21:03.868 81496 Delete type=0 #4
+2021/10/02-00:21:03.868 81496 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

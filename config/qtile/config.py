@@ -84,15 +84,15 @@ keys = [
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown qtile"),
-    Key([mod], "r", lazy.spawn("rofi -show run"),
+    Key([mod], "r", lazy.spawn("rofi -theme iceberg-light -show run"),
         desc="Spawn a command using a prompt widget"),
     Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight -inc 5")),
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -dec 5")),
     Key([mod], "w", lazy.spawn("qutebrowser")),
     Key([mod], "e", lazy.spawn("gvim")),
-    Key([mod], "f", lazy.spawn("rofi -show file-browser-extended -show-icons")),
+    Key([mod], "f", lazy.spawn("rofi -theme iceberg-light -show file-browser-extended -show-icons")),
     Key([mod], "y", lazy.spawn("alacritty -e ytfzf -Sl --sort")),
-    Key([mod], "a", lazy.spawn("rofi -show window")),
+    Key([mod], "a", lazy.spawn("rofi -theme iceberg-light -show window")),
 ]
 
 groups = [Group(i) for i in "123456789"]
@@ -274,11 +274,11 @@ mouse = [
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: List
-main = None  # WARNING: this is deprecated and will be removed soon
+#  main = None  # WARNING: this is deprecated and will be removed soon
 follow_mouse_focus = True
 bring_front_click = False
 cursor_warp = False
-#floating_layout = layout.Floating(float_rules=[
+floating_layout = layout.Floating(float_rules=[
 #    # Run the utility of `xprop` to see the wm class and name of an X client.
 #    {'wmclass': 'confirm'},
 #    {'wmclass': 'dialog'},
@@ -294,7 +294,7 @@ cursor_warp = False
 #    {'wname': 'branchdialog'},  # gitk
 #    {'wname': 'pinentry'},  # GPG key password entry
 #    {'wmclass': 'ssh-askpass'},  # ssh-askpass
-#])
+])
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 

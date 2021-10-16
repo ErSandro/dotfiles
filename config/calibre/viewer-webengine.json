@@ -1,0 +1,50 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAGAAAAHgAAA70AAAQtAAAACAAAACAAAAO7AAAEKwAAAAAAAAAAB4AAAAAIAAAAIAAAA7sAAAQr"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAJcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAApgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACIAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAP0A////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAN4A////AAADtAAABAwAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Terry Pratchett"
+        ],
+        "key": "/home/ersandro/Calibre Library/Terry Pratchett/The Folklore of Discworld (22)/The Folklore of Discworld - Terry Pratchett.mobi",
+        "pathtoebook": "/home/ersandro/Calibre Library/Terry Pratchett/The Folklore of Discworld (22)/The Folklore of Discworld - Terry Pratchett.mobi",
+        "timestamp": "2021-10-02T00:06:25.250Z",
+        "title": "The Folklore of Discworld"
+      },
+      {
+        "authors": [
+          "Terry Pratchett"
+        ],
+        "key": "/home/ersandro/Calibre Library/Terry Pratchett/Mort (14)/Mort - Terry Pratchett.mobi",
+        "pathtoebook": "/home/ersandro/Calibre Library/Terry Pratchett/Mort (14)/Mort - Terry Pratchett.mobi",
+        "timestamp": "2021-10-02T00:02:51.746Z",
+        "title": "Mort"
+      },
+      {
+        "authors": [
+          "Terry Pratchett"
+        ],
+        "key": "/home/ersandro/Calibre Library/Terry Pratchett/The World of Poo (30)/The World of Poo - Terry Pratchett.mobi",
+        "pathtoebook": "/home/ersandro/Calibre Library/Terry Pratchett/The World of Poo (30)/The World of Poo - Terry Pratchett.mobi",
+        "timestamp": "2021-10-02T00:01:16.007Z",
+        "title": "The World of Poo"
+      }
+    ]
+  }
+}

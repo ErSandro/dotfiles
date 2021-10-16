@@ -1,0 +1,25 @@
+{
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.28"
+    ]
+  },
+  "recursive book import root dir dialog": "/home/ersandro/Documents/ebooks/Discworld Collection by Terry Pratchett",
+  "sort_history": [
+    [
+      "pubdate",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

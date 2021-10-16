@@ -1,0 +1,8 @@
+0
+/home/ersandro/.config/variety/Downloaded/nasa_apod/Pluto-Mountains-Plains9-17-15.jpg
+/home/ersandro/.config/variety/Downloaded/Earth View/Palmdale, United States (ID-5586).jpg
+/home/ersandro/.config/variety/Downloaded/nasa_apod/ChristmasTree-ConeNebula-CumeadaObservatoryDSA-net.jpg
+/home/ersandro/.config/variety/Downloaded/Bing/OHR.AarhusInfinite_EN-US7607613784_1920x1080.jpg
+/home/ersandro/.config/variety/Downloaded/flickr_user_www_flickr_com_photos_peter_levi__user_id_93647178_N00_/7527874450_093b070d97_o.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Springtime-Solitaire_by_Isaac-Sloan.jpg
+/usr/share/backgrounds/gnome/adwaita-timed.xml

@@ -27,9 +27,12 @@ settings:
     global: white
   colors.tabs.selected.odd.fg:
     global: '#668bd7'
-  content.notifications:
+  content.notifications.enabled:
+    https://chat.sourcesense.com: true
     https://getpopcorntime.is: false
+    https://it.aliexpress.com: false
     https://www.digitaltrends.com: false
+    https://www.gfinityesports.com: false
     https://www.netflix.com: false
     https://www.reddit.com: false
     https://yts.unblocked.name: false

@@ -8,3 +8,18 @@
 [2021-03-04 01:20:04.438] [info] Checking for update
 [2021-03-04 01:20:04.549] [info] null 1
 [2021-03-04 01:20:05.843] [info] Update for version 0.6.2 is not available (latest version: 0.6.2, downgrade is disallowed).
+[2021-06-02 00:28:45.522] [info] Checking for update
+[2021-06-02 00:28:45.665] [info] null 1
+[2021-06-02 00:28:47.078] [info] Update for version 0.6.2 is not available (latest version: 0.6.2, downgrade is disallowed).
+[2021-06-02 00:31:47.736] [info] Checking for update
+[2021-06-02 00:31:47.860] [info] null 1
+[2021-06-02 00:31:49.142] [info] Update for version 0.6.2 is not available (latest version: 0.6.2, downgrade is disallowed).
+[2021-10-02 00:21:29.240] [info] Checking for update
+[2021-10-02 00:21:29.355] [info] null 1
+[2021-10-02 00:21:30.545] [info] Update for version 0.6.2 is not available (latest version: 0.6.2, downgrade is disallowed).
+[2021-10-02 00:22:54.598] [info] Checking for update
+[2021-10-02 00:22:54.640] [info] Error: connect ECANCELED 142.250.180.142:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16) 1
+[2021-10-02 00:30:11.386] [info] Checking for update
+[2021-10-02 00:30:11.510] [info] null 1
+[2021-10-02 00:30:12.699] [info] Update for version 0.6.2 is not available (latest version: 0.6.2, downgrade is disallowed).

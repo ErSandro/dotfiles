@@ -1,7 +1,13 @@
-{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"customMoviesServer","value":"https://yts.mx/","_id":"2yzNn66LTbwl67ZT"}
+{"key":"arch","value":"x64","_id":"3Uh5XgylonS7o3FO"}
+{"key":"version","value":"0.4.5","_id":"7PkuDlX7WP7JSL1q"}
+{"key":"releaseName","value":"The next wave","_id":"NVy4okQVnuLivZve"}
 {"key":"language","value":"en","_id":"Oln4VaFhNGUbmt2O"}
+{"key":"ipAddress","value":"192.168.1.36","_id":"Wbx8SKfzhXgz5jxh"}
+{"key":"os","value":"linux","_id":"qh6yehKd6UBnUytZ"}
+{"key":"disclaimerAccepted","value":1,"_id":"sXmaXK9jodKRXYUM"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
 {"key":"version","value":"0.3.10","_id":"7PkuDlX7WP7JSL1q"}
 {"key":"releaseName","value":"Popcorn is Love","_id":"NVy4okQVnuLivZve"}
 {"key":"arch","value":"x64","_id":"3Uh5XgylonS7o3FO"}
 {"key":"os","value":"linux","_id":"qh6yehKd6UBnUytZ"}
-{"key":"disclaimerAccepted","value":1,"_id":"sXmaXK9jodKRXYUM"}

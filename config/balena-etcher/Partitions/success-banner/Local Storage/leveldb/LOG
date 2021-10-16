@@ -1,3 +1,3 @@
-2021/02/28-11:47:05.225 b41 Reusing MANIFEST /home/ersandro/git/dotfiles/config/balena-etcher/Partitions/success-banner/Local Storage/leveldb/MANIFEST-000001
-2021/02/28-11:47:05.226 b41 Recovering log #3
-2021/02/28-11:47:05.226 b41 Reusing old log /home/ersandro/git/dotfiles/config/balena-etcher/Partitions/success-banner/Local Storage/leveldb/000003.log 
+2021/06/18-12:09:05.544 50be Reusing MANIFEST /home/ersandro/git/dotfiles/config/balena-etcher/Partitions/success-banner/Local Storage/leveldb/MANIFEST-000001
+2021/06/18-12:09:05.545 50be Recovering log #3
+2021/06/18-12:09:05.546 50be Reusing old log /home/ersandro/git/dotfiles/config/balena-etcher/Partitions/success-banner/Local Storage/leveldb/000003.log 

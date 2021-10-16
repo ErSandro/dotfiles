@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>lineedit_history_store_search_search</key>
+	<array>
+		<string>witcher</string>
+		<string>discworld</string>
+	</array>
+	<key>lineedit_history_store_search_search_author</key>
+	<array>
+		<string>terry pratchett</string>
+	</array>
+	<key>lineedit_history_store_search_search_title</key>
+	<array>
+		<string>i leoni di sicilia</string>
+	</array>
+</dict>
+</plist>

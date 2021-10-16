@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.11.1
+###  vlc 3.0.16
 ###
 
 ###
@@ -53,6 +53,29 @@
 
 # Session email (string)
 #sout-standard-email=
+
+[stream_out_chromecast] # Chromecast stream output
+
+# ? (string)
+#sout-chromecast-ip=
+
+# ? (integer)
+#sout-chromecast-port=8009
+
+# ? (boolean)
+#sout-chromecast-video=1
+
+# HTTP port (integer)
+#sout-chromecast-http-port=8010
+
+# Performance warning (integer)
+#sout-chromecast-show-perf-warning=1
+
+# Enable Audio passthrough (boolean)
+#sout-chromecast-audio-passthrough=0
+
+# Conversion quality (integer)
+#sout-chromecast-conversion-quality=1
 
 [smem] # Stream output to memory buffer
 
@@ -407,6 +430,40 @@
 
 # Use NIT for scanning services (boolean)
 #dvb-scan-nit=1
+
+[nfs] # NFS input
+
+# Set NFS uid/guid automatically (boolean)
+#nfs-auto-guid=1
+
+[rist] # RIST input
+
+# RIST maximum packet size (bytes) (integer)
+#packet-size=1472
+
+# RIST demux/decode maximum jitter (default is 5ms) (integer)
+#maximum-jitter=5
+
+# RIST latency (ms) (integer)
+#latency=1000
+
+# RIST nack retry interval (ms) (integer)
+#retry-interval=132
+
+# RIST reorder buffer (ms) (integer)
+#reorder-buffer=70
+
+# RIST maximum retry count (integer)
+#max-retries=10
+
+# RIST nack type, 0 = range, 1 = bitmask. Default is range (integer)
+#nack-type=0
+
+# Disable NACK output packets (boolean)
+#disable-nacks=0
+
+# Do not check for a valid rtcp message from the encoder (boolean)
+#mcast-blind-nacks=0
 
 [v4l2] # Video4Linux input
 
@@ -1368,6 +1425,11 @@ qt-privacy-ask=0
 # DTS dynamic range compression (boolean)
 #dts-dynrng=1
 
+[libass] # Subtitle renderers using libass
+
+# Additional fonts directory (string)
+#ssa-fontsdir=
+
 [theora] # Theora video decoder
 
 # Post processing quality (integer)
@@ -2018,7 +2080,7 @@ qt-privacy-ask=0
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.11.1 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.16 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -2967,6 +3029,23 @@ qt-privacy-ask=0
 # Stream public (boolean)
 #sout-shout-public=0
 
+[access_output_rist] # RIST stream output
+
+# RIST target packet size (bytes) (integer)
+#sout-rist-packet-size=1328
+
+# RIST data output caching size (ms) (integer)
+#sout-rist-caching=50
+
+# RIST retry-buffer queue size (ms) (integer)
+#sout-rist-buffer-size=0
+
+# SSRC used in RTP output (default is random, i.e. 0) (integer)
+#sout-rist-ssrc=0
+
+# Stream name (string)
+#sout-rist-stream-name=
+
 [podcast] # Podcasts
 
 # Podcast URLs list (string)
@@ -3690,7 +3769,7 @@ qt-privacy-ask=0
 [freetype] # Freetype2 font renderer
 
 # Font (string)
-#freetype-font=Serif Bold
+freetype-font=DejaVu Sans
 
 # Monospace Font (string)
 #freetype-monofont=Monospace
@@ -3711,7 +3790,7 @@ qt-privacy-ask=0
 #freetype-bold=0
 
 # Background opacity (integer)
-#freetype-background-opacity=0
+freetype-background-opacity=128
 
 # Background color (integer)
 #freetype-background-color=0
@@ -3723,7 +3802,7 @@ qt-privacy-ask=0
 #freetype-outline-color=0
 
 # Outline thickness (integer)
-#freetype-outline-thickness=4
+freetype-outline-thickness=6
 
 # Shadow opacity (integer)
 #freetype-shadow-opacity=128

@@ -1,0 +1,2 @@
+2021/10/01-19:12:44.123 2dedf Creating DB /home/ersandro/.config/Rocket.Chat/Partitions/https%3A//chat.sourcesense.com/IndexedDB/https_chat.sourcesense.com_0.indexeddb.leveldb since it was missing.
+2021/10/01-19:12:44.137 2dedf Reusing MANIFEST /home/ersandro/.config/Rocket.Chat/Partitions/https%3A//chat.sourcesense.com/IndexedDB/https_chat.sourcesense.com_0.indexeddb.leveldb/MANIFEST-000001

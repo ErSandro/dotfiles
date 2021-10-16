@@ -13,10 +13,9 @@
       <ExtraDataItem name="GUI/LastItemSelected" value="m=Linux"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="0,24,1920,1056"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/ersandro/Downloads"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/ersandro/Downloads/elementaryos-6.0-daily.20210430.iso,/home/ersandro/Downloads/kali-linux-2020-4-live-amd64-iso/kali-linux-2020.4-live-amd64.iso,/home/ersandro/Downloads/kali-linux-2020-4-installer-amd64-iso/kali-linux-2020.4-installer-amd64.iso,/home/ersandro/Downloads/nixos-gnome-20.09.1784.29e9c10750e-x86_64-linux.iso,/home/ersandro/Downloads/instantos_beta5_1.iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/ersandro/Downloads/instantos_beta6.iso,/home/ersandro/Downloads/arcolinuxb-qtile-v21.05.9-x86_64.iso,/home/ersandro/Downloads/cbpp-10.1-amd64-20190713.iso,/home/ersandro/Downloads/elementaryos-6.0-daily.20210430.iso,/home/ersandro/Downloads/kali-linux-2020-4-live-amd64-iso/kali-linux-2020.4-live-amd64.iso"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="635,1284"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="remindAboutMouseIntegration,confirmGoingFullscreen,remindAboutAutoCapture"/>
-      <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
